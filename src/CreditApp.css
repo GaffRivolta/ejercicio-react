@@ -1,0 +1,142 @@
+.app__container {
+    background-color: #084f85;
+    min-height: 100vh;
+    padding-top: 40px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__simulate-container {
+    align-items: center;
+    background-color: #003b67;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 600px;
+}
+
+.app__calculator-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 85%;
+}
+
+.app__ammount-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.app__ammount-row {
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.app__ammount-slider-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.app__ammount-slider-min-and-max {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;   
+    margin-top: 5px;
+}
+
+.app__term-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.app__term-row {
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.app__term-slider-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.app__term-slider-min-and-max {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.app__result-container {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.app__result-row {
+    align-items: center;
+    background-color: #00355d;
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.app__fixed-fee-text {
+    font-weight: 600;
+}
+
+.app__result-text {
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.app__actions-row {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+
+.app__get-credit {
+    align-items: center;
+    background-color: #17aa8d;
+    cursor: pointer;
+    display: flex;
+    font-weight: 600;
+    height: 100%;
+    justify-content: center;
+    margin-right: 5px;
+    width: 70%;
+}
+
+.app__view-detail {
+    align-items: center;
+    background-color: #0b548b;
+    cursor: pointer;
+    display: flex;
+    font-weight: 600;
+    height: 100%;
+    text-align: center;
+}
